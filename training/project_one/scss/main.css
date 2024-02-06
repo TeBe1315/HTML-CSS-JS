@@ -26,14 +26,20 @@ body {
   cursor: pointer;
 }
 
-.treatments-block {
-  margin-top: 5rem;
-  background-color: #fff;
-}
-.treatments-block .header {
+.header {
   font-size: 42px;
   text-align: center;
   padding-top: 5rem;
+}
+
+.header-item {
+  font-size: 24px;
+  margin: 1rem 0;
+}
+
+.treatments-block {
+  margin-top: 5rem;
+  background-color: #fff;
 }
 .treatments-block .treatments {
   display: flex;
@@ -51,8 +57,6 @@ body {
   animation-fill-mode: forwards;
 }
 .treatments-block .treatments .treatments-block-items h3 {
-  font-size: 24px;
-  margin: 1rem 0;
   border: none;
   animation: none;
 }
@@ -67,21 +71,53 @@ body {
   animation-duration: 1s;
 }
 
+.promotions-and-news .container-line {
+  position: relative;
+  height: 1vh;
+}
+.promotions-and-news .container-line .line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 2px;
+  background-color: #fff;
+}
+.promotions-and-news .promotions, .promotions-and-news .news {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem;
+}
+.promotions-and-news .promotions .header-item, .promotions-and-news .news .header-item {
+  text-align: center;
+}
+.promotions-and-news .promotions .block, .promotions-and-news .news .block {
+  width: 350px;
+  height: 300px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.promotions-and-news .promotions .block .lid, .promotions-and-news .news .block .lid {
+  font-size: 16px;
+}
+.promotions-and-news .promotions .block .text-promotion, .promotions-and-news .news .block .text-promotion {
+  margin-top: 0.5rem;
+  font-size: 14px;
+}
+
 @keyframes bb {
   25% {
-    border: 1.2px solid #6b5b51;
-  }
-  33% {
-    border: 1.4px solid #6b5b51;
+    border: 2px solid #6b5b51;
   }
   50% {
-    border: 1.6px solid #6b5b51;
+    border: 2.2px solid #6b5b51;
   }
   75% {
-    border: 1.8px solid #6b5b51;
+    border: 2.4px solid #6b5b51;
   }
   100% {
     background-color: #e4c0a8;
-    border: 1.9px solid #6b5b51;
+    border: 2.6px solid #6b5b51;
   }
 }/*# sourceMappingURL=main.css.map */
