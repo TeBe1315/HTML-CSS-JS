@@ -108,20 +108,65 @@ body {
         }
     }
 }
+.prices{
+    background-color: #fff;
+    .alls-prices{
+        display: grid;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        h3{
+            font-size: 28px;
+            margin-top: 3rem;
+        }
+        .all-prices{
+            .principal-header{
+                font-size: 24px;
+                margin-top: 1.4rem;
+            }
+
+            .header-title {
+                font-size: 18px;
+                margin-top: .8rem;
+            }
+            .offer-item{
+                font-size: 16px;
+                list-style: none;
+                margin-top: .3rem;
+                cursor: pointer;
+                transition: bacgroundcolor .5s;
+                animation-fill-mode: forwards;
+            }
+            .offer-item:hover{
+                animation-name: bgc;
+                animation-duration: 1s;
+            }
+        }
+    }
+}
+
+
 
 // KEYFRAMES
 @keyframes bb {
     25%{
-        border: 2px solid #6b5b51
+        border: 1.4px solid #6b5b51
     }
     50%{
-        border: 2.2px solid #6b5b51
+        border: 1.6px solid #6b5b51
     }
     75%{
-        border: 2.4px solid #6b5b51
+        border: 1.8px solid #6b5b51
     }
     100%{
         background-color: #e4c0a8;
-        border: 2.6px solid #6b5b51;
+        border: 1.9px solid #6b5b51;
+    }
+}
+
+@keyframes bgc {
+    to{
+        background-color: royalblue;
+        color: gold;
     }
 }
