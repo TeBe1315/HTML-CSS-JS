@@ -108,6 +108,7 @@ body {
 
 .prices {
   background-color: #fff;
+  height: 100%;
 }
 .prices .alls-prices {
   display: grid;
@@ -138,6 +139,23 @@ body {
 .prices .alls-prices .all-prices .offer-item:hover {
   animation-name: bgc;
   animation-duration: 1s;
+}
+
+.white-block {
+  background-color: #fff;
+  height: 3rem;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+.contact .footer .footer-item {
+  font-size: 16px;
+  margin: 2rem;
+}
+.contact .footer .icon {
+  margin: 0.2rem;
+  font-size: 20px;
 }
 
 @keyframes bb {
