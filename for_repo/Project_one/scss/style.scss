@@ -20,15 +20,89 @@ body {
         font-size: 4.5rem;
         color: #fff;
         margin: 2rem;
+        margin-left: 2rem;
     }
     
+    .nav-item {
+        flex-grow: 1.2;
+        a {
+            color: #fff;
+            list-style: none;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin: .5rem;
+            transition: .3s;
+        }
+    }
+    a:hover{
+        color: gold;
+    }
+}
+
+.about-us {
+
+    .images {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        margin: 5rem 0;
+
+        .perfume{
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .for-woman{
+            position: relative;
+            margin: .8rem;
+
+            .text-woman {
+                position: absolute;
+                margin-left: 2rem;
+                font-size: 20px;
+                font-weight: bold;
+                top: 2rem;
+            }
+        }
+
+        .for-man {
+            margin: .8rem;
+            
+            .image-man{
+                height: 94%;
+            }
+
+            .text-man {
+                color: #fff;
+                position: absolute;
+                margin-left: 2rem;
+                bottom: 3rem;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .content {
+        .title{
+            font-size: 56px;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .text {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+}
+
+.contact {
+    background-color: #000;
+    height: 5rem;
     a {
+        font-size: 1.5rem;
         color: #fff;
-        list-style: none;
         text-decoration: none;
-        font-size: 18px;
-        font-weight: bold;
-        flex-grow: 3;
-        // border: 2px solid;
+        margin: .8rem .3rem;
     }
 }

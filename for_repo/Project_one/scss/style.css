@@ -20,12 +20,75 @@ body {
   font-size: 4.5rem;
   color: #fff;
   margin: 2rem;
+  margin-left: 2rem;
 }
-.navigation a {
+.navigation .nav-item {
+  flex-grow: 1.2;
+}
+.navigation .nav-item a {
   color: #fff;
   list-style: none;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  flex-grow: 3;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+.navigation a:hover {
+  color: gold;
+}
+
+.about-us .images {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 5rem 0;
+}
+.about-us .images .perfume {
+  width: 100%;
+  border-radius: 5px;
+}
+.about-us .images .for-woman {
+  position: relative;
+  margin: 0.8rem;
+}
+.about-us .images .for-woman .text-woman {
+  position: absolute;
+  margin-left: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  top: 2rem;
+}
+.about-us .images .for-man {
+  margin: 0.8rem;
+}
+.about-us .images .for-man .image-man {
+  height: 94%;
+}
+.about-us .images .for-man .text-man {
+  color: #fff;
+  position: absolute;
+  margin-left: 2rem;
+  bottom: 3rem;
+  font-size: 20px;
+}
+.about-us .content .title {
+  font-size: 56px;
+  text-align: center;
+  margin: 2rem 0;
+}
+.about-us .content .text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.contact {
+  background-color: #000;
+  height: 5rem;
+}
+.contact a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  margin: 0.8rem 0.3rem;
 }/*# sourceMappingURL=style.css.map */
